@@ -30,7 +30,6 @@ setup(name='bounding-boxes',
 		package_name,
 	],
 	include_package_data=True,
-	install_requires=['dmath',],
 	test_suite = '%s.tests' % package_name,
 )
 
